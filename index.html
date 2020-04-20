@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h2>Expense Tracker</h2>
@@ -26,12 +27,12 @@
       </div>
       <h3>History</h3>
       <ul class="list" id="list">
-        <li class="minus">
+        <!-- <li class="minus">
           Cash<span>-$400</span
           ><button class="delete-btn">
             x
           </button>
-        </li>
+        </li> -->
       </ul>
       <h3>Add new Transaction</h3>
       <form id="form">
@@ -40,8 +41,10 @@
           <input type="text" id="input" placeholder="Enter Text.." />
         </div>
         <div class="form-control">
-            <label for="amount">Amount<br />(negative - Expense , positive - Balance)</label>
-            <input type="number" id="amount" placeholder="Enter Amount.. ">
+          <label for="amount"
+            >Amount<br />(negative - Expense , positive - Balance)</label
+          >
+          <input type="number" id="amount" placeholder="Enter Amount.. " />
         </div>
       </form>
       <button class="btn">Add Transaction</button>
